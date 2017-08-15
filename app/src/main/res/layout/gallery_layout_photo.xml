@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kay.photoboothgallerydemo.MainActivity">
+    <Button
+        android:id="@+id/goto_video_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to video"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/gallery_photo_capture"
+        android:text="capture"
+        />
+
+    <com.example.kay.photoboothgallerydemo.PhotoBoothGalleryPhoto
+        android:id="@+id/gallery_photo_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>
